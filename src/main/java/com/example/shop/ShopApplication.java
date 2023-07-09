@@ -14,10 +14,11 @@ import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerIntercept
 
 @Configuration
 @SpringBootApplication
-@MapperScan("com.java.bfmk.mapper")
+@MapperScan("com.exemple.shop.mapper")
 public class ShopApplication implements WebMvcConfigurer {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ShopApplication.class, args);
         System.out.println("(♥◠‿◠)ﾉﾞ  后台启动成功   ლ(´ڡ`ლ)ﾞ  \n" );
     }
